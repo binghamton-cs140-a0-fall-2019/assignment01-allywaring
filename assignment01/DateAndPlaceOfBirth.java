@@ -20,14 +20,15 @@ public class DateAndPlaceOfBirth {
 	 * @param countryBirth the country where the birth took place
 	 */
 	public DateAndPlaceOfBirth(
-			int yearOfBirth, 
-			int monthOfBirth, 
+			int yearOfBirth,
+			int monthOfBirth,
 			int dayOfBirth,
 			String cityOfBirth,
 			String stateOfBirth,
 			String countryBirth) {
 		dateOfBirth = LocalDate.of(yearOfBirth, monthOfBirth, dayOfBirth);
 		placeOfBirth = cityOfBirth + ", " + stateOfBirth + ", " + countryBirth;
+		dayOfBirth = monthOfBirth + dayOfBirth;
 	}
 	/**
 	 * Initialization constructor used to set the values of all the fields.
@@ -39,13 +40,14 @@ public class DateAndPlaceOfBirth {
 	 * @param countryBirth the country where the birth took place
 	 */
 	public DateAndPlaceOfBirth(
-			int yearOfBirth, 
-			int monthOfBirth, 
+			int yearOfBirth,
+			int monthOfBirth,
 			int dayOfBirth,
 			String cityOfBirth,
 			String countryBirth) {
 		dateOfBirth = LocalDate.of(yearOfBirth, monthOfBirth, dayOfBirth);
 		placeOfBirth = cityOfBirth + ", " + countryBirth;
+		dayOfBirth = monthOfBirth + dayOfBirth;
 	}
 	/**
 	 * Getter method for the date of birth
@@ -63,7 +65,7 @@ public class DateAndPlaceOfBirth {
 	public String getPlaceOfBirth() {
 		return placeOfBirth;
 	}
-	
+
 	/**
 	 * The method olderThan returns true if the date of birth of
 	 * this DateAndPlaceOfBirth is before the date of birth of
@@ -106,10 +108,20 @@ public class DateAndPlaceOfBirth {
 	 * the same day and month as the date of birth of other and false otherwise
 	 */
 	public boolean hasSameBirthDayAs(DateAndPlaceOfBirth other) {
+		// System.out.println("our month: " + this.dateOfBirth.getMonthValue());
+		// System.out.println("your month: " + other.dateOfBirth.getMonthValue());
+		// System.out.println("your day: " + other.dateOfBirth.getDayOfMonth());
+		// System.out.println("our day: " + this.dateOfBirth.getDayOfMonth());
+		if(this.dateOfBirth.getMonthValue() == other.dateOfBirth.getMonthValue() && this.dateOfBirth.getDayOfMonth() == other.dateOfBirth.getDayOfMonth()){
+			return true;
+		}else{
+			return false;
+		}
+		//return dayOfBirth.isEqual(dayOfBirth);
   //TODO complete this method
   }
 	@Override
 	public String toString() {
 		return "Date and place of birth: " + dateOfBirth + ", " + placeOfBirth;
-	}	
+	}
 }

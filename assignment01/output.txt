@@ -1,0 +1,254 @@
+
+TESTS FOR Computer.java:
+
+TESTS FOR Computer.java:
+
+TESTS FOR Computer.java:
+
+TESTS FOR Computer.java:
+
+TESTS FOR Computer.java:
+
+TESTS FOR StreetUSAddress.java:
+
+TESTS FOR DateAndPlaceOfBirth.java:
+
+TESTS FOR DateAndPlaceOfBirth.java:
+
+TESTS FOR StreetUSAddress.java:
+
+TESTS FOR DateAndPlaceOfBirth.java:
+
+TESTS FOR DateAndPlaceOfBirth.java:
+
+TESTS FOR DateAndPlaceOfBirth.java:
+
+TESTS FOR DateAndPlaceOfBirth.java:
+
+TESTS FOR DateAndPlaceOfBirth.java:
+
+TESTS FOR DateAndPlaceOfBirth.java:
+
+TESTS FOR DateAndPlaceOfBirth.java:
+
+TESTS FOR DateAndPlaceOfBirth.java:
+
+TESTS FOR DateAndPlaceOfBirth.java:
+
+TESTS FOR DateAndPlaceOfBirth.java:
+
+TESTS FOR DateAndPlaceOfBirth.java:
+
+TESTS FOR DateAndPlaceOfBirth.java:
+
+TESTS FOR DateAndPlaceOfBirth.java:
+
+TESTS FOR Person.java:
+
+TESTS FOR Person.java:
+
+TESTS FOR Person.java:
+
+TESTS FOR Person.java:
+
+TESTS FOR Person.java:
+
+TESTS FOR Person.java:
+
+TESTS FOR Person.java:
+
+TESTS FOR Person.java:
+
+TESTS FOR Person.java:
+
+TESTS FOR Person.java:
+
+TESTS FOR Person.java:
+
+TESTS FOR Person.java:
+
+TESTS FOR Person.java:
+
+TESTS FOR Person.java:
+
+TESTS FOR Person.java:
+
+TESTS FOR Person.java:
+
+TESTS FOR ComputerOwner.java:
+
+TESTS FOR ComputerOwner.java:
+
+TESTS FOR ComputerOwner.java:
+
+TESTS FOR ComputerOwner.java:
+
+TESTS FOR ComputerOwner.java:
+
+TESTS FOR ComputerOwner.java:
+
+TESTS FOR ComputerOwner.java:
+
+TESTS FOR ComputerOwner.java:
+Computer List, Owner: Ally Waring (123456789)
+Date and place of birth: 2000-03-06, Setauket, NY, USA
+25 University Dr
+PO Box 455
+Setauket, NY 11733
+Computers: []
+
+TESTS FOR ComputerOwner.java:
+Computer List, Owner: Ally Waring (123456789)
+Date and place of birth: 2000-03-06, Setauket, NY, USA
+25 University Dr
+PO Box 455
+Setauket, NY 11733
+Computers: []
+
+TESTS FOR Person.java:
+Ally Waring (123456789)
+Date and place of birth: 2000-03-06, Setauket, NY, USA
+25 University Dr
+PO Box 455
+Setauket, NY 11733
+
+TESTS FOR StreetUSAddress.java:
+25 University Dr
+PO Box 455
+Setauket, NY 11733
+25 University Dr
+Setauket, NY 11733
+
+TESTS FOR Computer.java:
+apple, 15inch, 8GB Memory, 1.5TB Solid State Drive, Price: $1999.99 
+dell, 13inch, 8GB Memory, 2.0TB Hard Drive, Price: $299.99 
+hp, 11 inch, 8GB Memory, 800GB Solid State Drive, Price: $599.99 
+acer, 15 inch, 8GB Memory, 500GB Hard Drive, Price: $199.99 
+
+TESTS FOR ComputerOwner.java:
+Computer List, Owner: Ally Waring (123456789)
+Date and place of birth: 2000-03-06, Setauket, NY, USA
+25 University Dr
+PO Box 455
+Setauket, NY 11733
+Computers: []
+
+TESTS FOR ComputerOwner.java:
+Computer List, Owner: Ally Waring (123456789)
+Date and place of birth: 2000-03-06, Setauket, NY, USA
+25 University Dr
+PO Box 455
+Setauket, NY 11733
+Computers: []
+
+TESTS FOR Computer.java:
+apple, 15inch, 8GB Memory, 1.5TB Solid State Drive, Price: $1999.99 
+dell, 13inch, 8GB Memory, 2.0TB Hard Drive, Price: $299.99 
+hp, 11 inch, 8GB Memory, 800GB Solid State Drive, Price: $599.99 
+acer, 15 inch, 8GB Memory, 500GB Hard Drive, Price: $199.99 
+
+TESTS FOR Person.java:
+Ally Waring (123456789)
+Date and place of birth: 2000-03-06, Setauket, NY, USA
+25 University Dr
+PO Box 455
+Setauket, NY 11733
+
+TESTS FOR Person.java:
+Ally Waring (123456789)
+Date and place of birth: 2000-03-06, Setauket, NY, USA
+25 University Dr
+PO Box 455
+Setauket, NY 11733
+
+TESTS FOR DateAndPlaceOfBirth.java:
+Date and place of birth: 2000-03-06, Setauket, NY, USA
+Date and place of birth: 1998-01-06, San Diego, CA, USA
+Date and place of birth: 1990-12-17, Miami, FL, USA
+Date and place of birth: 1990-12-17, London, England
+Date and place of birth: 2003-12-17, Paris, France
+false
+false
+false
+false
+false
+false
+false
+true
+true
+true
+false
+false
+false
+false
+false
+false
+false
+true
+false
+false
+true
+true
+true
+false
+true
+true
+false
+false
+false
+false
+false
+false
+false
+true
+false
+false
+true
+false
+true
+true
+
+TESTS FOR ComputerOwner.java:
+Computer List, Owner: Ally Waring (123456789)
+Date and place of birth: 2000-03-06, Setauket, NY, USA
+25 University Dr
+PO Box 455
+Setauket, NY 11733
+Computers: []
+
+TESTS FOR ComputerOwner.java:
+Computer List, Owner: Ally Waring (123456789)
+Date and place of birth: 2000-03-06, Setauket, NY, USA
+25 University Dr
+PO Box 455
+Setauket, NY 11733
+Computers: []
+
+TESTS FOR SimpleDate.java:
+
+TESTS FOR SimpleDate.java:
+
+TESTS FOR SimpleDate.java:
+
+TESTS FOR SimpleDate.java:
+
+TESTS FOR SimpleDate.java:
+2019,8,26
+
+TESTS FOR SimpleDate.java:
+2019,8,26
+
+TESTS FOR SimpleDate.java:
+2019,8,26
+
+TESTS FOR SimpleDate.java:
+2019,8,26
+false
+
+TESTS FOR SimpleDate.java:
+2019,8,26
+false
+
+TESTS FOR SimpleDate.java:
+2019,8,26
+false
